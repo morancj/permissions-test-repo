@@ -13,6 +13,8 @@ Branch protection enabled for branches matching 'master'. Flags set:
 
 All flags not mentioned are not set.
 
+GitHub does not allow authors to approve their own pull requests (`PR`): if this is required, either add at least one other person to your repo and grant them appropriate permissions, or disable branch protection, approve the PR, then re-enable branch protection.
+
 ### develop
 
 No branch protection rules match this branch name.
