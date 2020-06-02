@@ -13,7 +13,7 @@ Branch protection enabled for branches matching 'master'. Flags set:
 
 All flags not mentioned are not set.
 
-GitHub does not allow authors to approve their own pull requests (`PR`): if this is required, either add at least one other person to your repo and grant them appropriate permissions, or disable branch protection, approve the PR, then re-enable branch protection.
+GitHub does not allow authors to approve their own pull requests (`PR`). If a merge is required, but no other person with appropriate permissions to your repo is available, edit the `Branch protection rule`, disable `Require pull request reviews before merging`, merge the PR, then re-enable `Require pull request reviews before merging`.
 
 ### develop
 
